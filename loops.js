@@ -4,10 +4,10 @@ function forLoop (array) {
     array.push[`I am ${i} strange loops.`]
   }
   else if (i > 1 ) {
-    return `I am ${i} strange loops.`
+    array.push[`I am ${i} strange loops.`]
   }
   else {
-    return "I am 1 strange loop."
+    array.push["I am 1 strange loop."]
   }
 }
 return array

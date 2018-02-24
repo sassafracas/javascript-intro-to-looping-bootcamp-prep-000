@@ -1,7 +1,7 @@
 function forLoop (array) {
   for (let i = 0; i < 25; i++) {
   if (i < 1) {
-    return `I am ${i} strange loops.`
+    array.push[`I am ${i} strange loops.`]
   }
   else if (i > 1 ) {
     return `I am ${i} strange loops.`
@@ -18,4 +18,11 @@ function whileLoop(n){
     console.log(--n)
   }
   return "done"
+}
+
+function doWhileLoop(array){
+  function maybeTrue() {
+  return Math.random() >= 0.5
+}
+  do {}
 }
